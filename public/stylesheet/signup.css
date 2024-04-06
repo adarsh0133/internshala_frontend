@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: gilroy;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+:root {
+  font-size: 62.5%;
+}
+.logo img {
+  width: 10%;
+  height: 100%;
+}
+.logo {
+  width: 100%;
+  padding-left: 20vh;
+  height: 10vh;
+  box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.607);
+}
+.container {
+  height: 90vh;
+  background-image: url(https://internshala.com/static/images/registration/student_new/background.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.signupbox {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+}
+.signupbox h1 {
+  font-size: 2.8vw;
+  color: #333333;
+  margin-bottom: 1vh;
+  position: relative;
+  font-weight: 700;
+}
+.signupbox h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #333333;
+}
+.formbox {
+  height: 80vh;
+  color: #333333;
+  margin-top: 5vh;
+  padding-left: 5vh;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
+  box-shadow: -2px -2px 6px rgba(0, 107, 194, 0.12),
+    2px 2px 6px rgba(0, 107, 194, 0.12);
+  border-radius: 12px;
+  background-color: white;
+  width: 70%;
+}
+.formbox input {
+  width: 90%;
+  padding-left: 2vh;
+  outline: 1px solid aqua;
+  height: 5.5vh;
+  margin-bottom: 1vh;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.signupbox h1::after {
+  content: "";
+  background-image: url(https://internshala.com/static/images/registration/student_new/underline_m.svg);
+  height: 2vh;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -1.5vh;
+  right: 0;
+  color: black;
+}
+.formbox h4 {
+  font-size: 1vw;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+.formbox h5 {
+  font-size: 0.8vw;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+
+.formbox > h4 {
+  margin-left: 15vh;
+}
+.formbox > h4 a {
+  text-decoration: none;
+  color: #008bdc;
+}
+#formbtn {
+  width: 90%;
+  font-size: 1vw;
+  color: white;
+  height: 5.5vh;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1vh;
+  background-color: #00a5ec;
+}

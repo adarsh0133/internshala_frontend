@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: gilroy;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+:root {
+  font-size: 62.5%;
+}
+.loginbox form {
+  height: 100%;
+  width: 100%;
+  padding-top: 15vh;
+  padding-left: 5vh;
+  /* background-color: red; */
+}
+.loginbox form input {
+  height: 5vh;
+  width: 85%;
+}
+.loginbox {
+  position: absolute;
+  height: 60vh;
+  overflow: hidden;
+  width: 55vh;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333333;
+  z-index: 9;
+}
+.loginbox h3 {
+  font-size: 1vw;
+  font-weight: 500;
+  margin-bottom: 1vh;
+  color: #333333;
+}
+.loginbox input {
+  padding-left: 2vh;
+  font-size: 1vw;
+  outline: none;
+  margin-bottom: 2vh;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.loginnav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  gap: 2vw;
+  justify-content: space-evenly;
+  top: 9%;
+}
+
+.swiper {
+  height: 100%;
+}
+
+.loginparent {
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.502);
+  display: flex;
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+}
+.swiper-pagination-bullet {
+  min-height: 5vh;
+  border-radius: 0% !important;
+  background-color: transparent !important;
+  transform: translate(0, -49vh);
+  z-index: 99;
+  min-width: 25vh;
+}
+
+.swiper-scrollbar {
+  transform: translate(0, -49vh);
+  background-color: transparent !important;
+}
+.swiper-scrollbar-drag {
+  background-color: #008bdc !important;
+  border: 1px solid white;
+}
+.loginnav h1:nth-child(2) {
+  transform: translate(3vh, 0);
+}
+
+.loginbox h4 a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: #0093e9;
+  margin-left: 55%;
+  font-weight: 500;
+  margin-bottom: 1vh;
+}
+.loginbox h5 a {
+  text-decoration: none;
+  color: #0093e9;
+}
+.loginbox h5 {
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 500;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+}
+.loginbox button {
+  margin-top: 2vh;
+  width: 86%;
+  background-color: #008bdc;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+}
+.my-icon {
+  position: absolute;
+  right: 1vh;
+  color: #333333c1;
+  cursor: pointer;
+  z-index: 9;
+}
